@@ -1,59 +1,53 @@
-# JsonFormatterApp
+# JSON Formatter App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+A lightweight, user-friendly web application that formats and prettifies JSON data. Built with Angular and Tailwind CSS.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- **JSON Formatting**: Easily format and prettify JSON data
+- **Copy to Clipboard**: One-click copying of formatted JSON
+- **Dark/Light Mode**: Toggle between dark and light themes
+- **Error Detection**: Clear error messages for invalid JSON
+- **Responsive Design**: Works on desktop and mobile devices
+- **Local Storage**: Remembers your preferred theme
 
-```bash
-ng serve
-```
+## Technologies Used
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Angular 19**: Modern framework for building web applications
+- **Tailwind CSS**: Utility-first CSS framework
+- **TypeScript**: Typed JavaScript for better code quality
+- **RxJS**: Reactive programming library
 
-## Code scaffolding
+## Development
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Prerequisites
 
-```bash
-ng generate component component-name
-```
+- Node.js (v18 or higher)
+- npm (v8 or higher)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Getting Started
 
-```bash
-ng generate --help
-```
+1. Clone the repository
 
-## Building
+   ```bash
+   git clone https://github.com/manthanank/json-formatter-app.git
+   cd json-formatter-app
+   ```
 
-To build the project run:
+2. Install dependencies
 
-```bash
-ng build
-```
+   ```bash
+    npm install
+    ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+3. Start the development server
 
-## Running unit tests
+    ```bash
+    ng serve
+    ```
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+4. Open your browser and navigate to `http://localhost:4200`
 
-```bash
-ng test
-```
+## License
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
